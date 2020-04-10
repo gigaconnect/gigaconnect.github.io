@@ -1,2 +1,1 @@
-# website
-Public website for GIGA
+# giga-website

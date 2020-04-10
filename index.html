@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)https://getbootstrap.com/docs/4.3/examples/product/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="GIGA is a connectivity initiative that brings every school in the world online and equips young people with information, choice and opportunity.">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>GIGA</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/page_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .globalinformationg {
+          background-color: rgba(255,255,255,0.0);
+          height: auto;
+          margin: 0 auto;
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          font-family: "Roboto", Helvetica, Arial, serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 41.0px;
+          color: rgba(255, 255, 255, 1.0);
+          text-align: left;
+          line-height: 43.0px;
+      }
+
+      .mapfinanceconnect {
+        display:block;
+        margin-top: 2em;
+        font-size: 12.0px;
+        color: rgba(255, 255, 255, 1.0);
+        text-align: left;
+        letter-spacing: 0.8px;
+        line-height: 16.0px;
+      }
+
+      .path {
+        transform: rotate(180deg);
+        height: 14px;
+        margin-top: -2px;
+        padding: 0 4px;
+      }
+
+      .giga {
+        font-family: "RedHatDisplay-Medium", Helvetica, Arial, serif;
+        font-size: 22.0px;
+        color: rgba(255, 255, 255, 1.0);
+        text-align: left;
+        letter-spacing: 2.8px;
+        line-height: 29.0px;
+      }
+
+      .giga2 {
+        font-family: "RedHatDisplay-Medium", Helvetica, Arial, serif;
+        font-size: 18.0px;
+        color: rgba(255, 255, 255, 1.0);
+        text-align: right;
+        line-height: 23.0px;
+        font-weight:200;
+      }
+
+      .champion {
+            background-color: rgba(255,255,255,0.0);
+            -ms-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            font-family: "RedHatDisplay-Regular", Helvetica, Arial, serif;
+            font-size: 32.0px;
+            color: rgba(87, 0, 99, 0.8);
+            text-align: left;
+            line-height: 43.0px;
+            font-weight:100;
+      }
+
+      .provide {
+            background-color: rgba(255,255,255,0.0);
+            margin: 8px 0 0 0;
+            -ms-transform: rotate(0deg);
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            font-family: "Roboto", Helvetica, Arial, serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 16.0px;
+            color: rgba(0, 0, 0, 0.8);
+            text-align: left;
+            line-height: 24.0px;
+      }
+
+      .prectangle {
+          background-color: rgba(115, 72, 179, 1.0);
+          margin: 1em 0em 0px -3em;
+          border-radius: 5px;
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          padding:1em;
+          opacity: 0.9;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 16.0px;
+          color: rgba(255, 255, 255, 1.0);
+          text-align: left;
+          line-height: 24.0px;
+          -webkit-font-smoothing: antialiased;
+      }
+
+      .prectangle a {
+          color: #FFD800;
+      }
+
+      .prectangle p {
+        margin-bottom: 0px;
+      }
+
+      .updates {
+        font-size:21px;
+      }
+
+      .yellow {
+        background-color: rgb(255, 215, 64, 0.9);
+        border-radius: 5px;
+        padding:.5em 5em .5em 5em;
+        width: 100%;
+        font-size: 13px;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 600;
+      }
+
+      .yellow a, .yellow a:hover { color:black; text-decoration:none; }
+
+      .joinfooter {
+        margin:-3.5em 0 5px 0;
+      }
+
+      .personalinfo {
+        background-color: rgba(255,255,255,0.0);
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        font-family: "RedHatDisplay-Bold", Helvetica, Arial, serif;
+        font-size: 14.0px;
+        color: rgba(0, 0, 0, 1.0);
+        text-align: left;
+        letter-spacing: 0.8px;
+        line-height: 16.0px;
+        font-weight: 700;
+        display: block;
+        margin: 1em 0 2em 0;
+      }
+
+      .form-control {
+        background-color:rgba(236, 236, 236, 1.0);
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid grey;
+      }
+
+      input[type=checkbox] {
+        visibility: hidden;
+      }
+
+      .checkmybox {
+        float:left;
+    width: 20px;
+    height: 20px;
+    background: #ddd;
+    margin: 20px 0px;
+
+    border-radius: 100%;
+    position: relative;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+      }
+
+      .checkmybox label {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: 1;
+
+    background: #DDD;
+}
+      /**
+ * Create the checked state
+ */
+.checkmybox input[type=checkbox]:checked + label {
+    background: #333;
+}
+
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="./page_files/product.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="position-relative p-3 bg-light gigalandingdesktop" style="background-image: url('img/gigalandingdesktop-group-2.png');background-size: cover;">
+
+  <div class="col-md-10 p-lg-3 mx-auto">
+    <div class="globalinformationg py-4">
+      <span style="font-weight:700">GIGA</span> is an initiative to connect every school to the Internet, and every young person to information, opportunity and choice.
+    </div>
+  </div>
+</div>
+
+<div class="position-relative p-3" style="background-color: rgba(236, 236, 236, 1.0)">
+  <div class="col-md-10 p-lg-3 mx-auto">
+        <div class="champion">
+            GIGA - Connecting Every School to the Internet
+        </div>
+        <div class="provide" style="font-size: 1.1em; line-height: 1.5em">
+          <p>
+            ITU and UNICEF have joined forces in a bid to connect every school to the Internet by 2030.
+          </p>
+          <p>
+            GIGA will bring the power of meaningful connectivity to fast track young people's access to educational resources and opportunities. GIGA will make sure every child is equipped with the digital public goods they need, and empowered to shape the future they want.
+          </p>
+          <p>
+            Launched in 2019, GIGA has the goal of providing connectivity to every school in the world. Some 3.6 billion people in the world do not have access to the Internet. The lack of access to the Internet means exclusion, marked by the lack of access to the wealth of information available online, fewer  resources to learn and to grow, and limited opportunities for the most vulnerable children and youth to fulfill their potential. Closing the digital divide requires global cooperation, leadership, and innovation in finance and technology.
+          </p>
+          <p>
+            GIGA will bring the power of meaningful connectivity to fast track young people's access to educational resources and opportunities.  GIGA will make sure every child is equipped with the digital public goods they need, and empowered to shape the future they want.
+          </p>
+          <p>
+            GIGA also serves as a platform to create the infrastructure necessary to provide digital connectivity to an entire country, for every community, and for every citizen.
+          </p>
+        </div>
+  </div>
+</div>
+
+<div class="position-relative p-3">
+  <div class="col-md-10 p-lg-3 mx-auto">
+    <div class="row mb-5 mt-4">
+      <div class="col-sm-12">
+        <div class="champion">
+            Key components of GIGA
+        </div>
+        <div class="provide">
+            The GIGA initiative consists of four pillars: </b>Mapping</b>, <b>Connectivity</b>, <b>Financing Connectivity</b> and <b>Empowerment</b>.
+        </div>
+      </div>
+    </div>
+    <div class="row pb-3">
+      <div class="col-md-3">
+        <img class="w-100 p-1" src="./img/gigalandingdesktop-map-copy-3-1.jpg">
+      </div>
+      <div class="col-md-9">
+        <div class="prectangle">
+          <h2 style="font-weight:normal">Mapping</h2>
+          <p>In partnership with governments, GIGA has started by mapping connectivity demand, using schools as a base point, and identifying where there are connectivity gaps.  This information, combined with existing ITU mapping data, allows countries to take stock of their existing infrastructure and assess wired and wireless availability when assessing appropriate solutions for connecting schools.  Already more than 800,000 schools in 15 countries have been mapped, and are viewable at <a href="www.projectconnect.world" target="_blank">www.projectconnect.world</a>.</p>
+        </div>
+        <div class="d-block d-sm-none" style="margin-bottom:2em"></div>
+      </div>
+    </div>
+
+    <div class="row pb-3">
+      <div class="col-md-3">
+        <img class="w-100 p-1" src="./img/gigalandingdesktop-map-copy-3.jpg">
+      </div>
+      <div class="col-md-9">
+        <div class="prectangle">
+          <h2 style="font-weight:normal">Connectivity</h2>
+          <p>– In partnership with industry, and based on the mapping results, GIGA will advise on the best possible technical solutions available to provide schools with required connectivity, and countries with safe, secure, reliable, fit for purpose infrastructure to support a country’s future digital development needs.  This includes determining the best possible solutions for last mile connectivity.</p>
+        </div>
+        <div class="d-block d-sm-none" style="margin-bottom:2em"></div>
+      </div>
+    </div>
+
+    <div class="row pb-3">
+      <div class="col-md-3">
+        <img class="w-100 p-1" src="./img/gigalandingdesktop-map-copy-6.jpg">
+      </div>
+      <div class="col-md-9">
+        <div class="prectangle">
+          <h2 style="font-weight:normal">Financing Connectivity</h2>
+          <p>GIGA will work with governments and advise them on building affordable and sustainable country specific models for finance and delivery, subsidizing market creation costs and incentivizing private sector investment.</p>
+          </div>
+        <div class="d-block d-sm-none" style="margin-bottom:2em"></div>
+      </div>
+    </div>
+
+    <div class="row pb-3">
+      <div class="col-md-3">
+        <img class="w-100 p-1" src="./img/empower.jpg">
+      </div>
+      <div class="col-md-9">
+
+        <div class="prectangle">
+          <h2 style="font-weight:normal">Empower</h2>
+          <p>Building on investments by UNICEF's Venture Fund in open source solutions, GIGA will work with governments to identify appropriate Digital Public Goods that can be delivered and scaled by governments and local industry to provide relevant digital content as per a country's development priorities and in coordination with the broader national digital strategy.  The focus is on, but not limited to, information and skills to children, teachers, and administrators.</p>
+          </div>
+        <div class="d-block d-sm-none" style="margin-bottom:2em"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="position-relative p-3" style="background-color: rgba(236, 236, 236, 1.0)">
+  <div class="col-md-10 p-lg-3 mx-auto mt-4" id="form-container">
+    <div class="row">
+      <div class="col-sm-5 mb-4">
+        <div class="champion" class="text-sm-center">
+            Become a champion of GIGA
+        </div>
+        <div class="provide">
+            Provide us with a few details about yourself.  We will reach out to you with the next steps and relevant updates– and promise not to spam you.
+        </div>
+      </div>
+      <div class="col-sm-7">
+        <form id="contact">
+          <input type="hidden" name="sheet_name" value="Sheet1">
+          <div class='personalinfo'>
+            MY INFORMATION
+          </div>
+          <div class="row">
+            <div class="col-md-6 my-2">
+              <input type="text" class="form-control" name="Name" id="Name" placeholder="Your name" required="true">
+            </div>
+            <div class="col-md-6 my-2">
+              <input type="email" class="form-control" name="Email" id="Email" placeholder="Email" required="true">
+            </div>
+          </div>
+          <div class="row my-3-md">
+            <div class="col-md-6 my-2">
+              <input type="text" class="form-control" name="Organization" placeholder="Organization name">
+            </div>
+            <div class="col-md-6 my-2">
+              <select class="form-control" name="Type">
+                <option selected disabled>Organization type</option>
+                <option>Government</option>
+                <option>Technology Sector</option>
+                <option>Private Funder</option>
+                <option>Public Funder</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 my-2">
+              <select class="form-control" id="exampleInputEmail1" name="Country">
+                <option selected disabled>Primary Country of Operations</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Åland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+                <option value="AS">American Samoa</option>
+                <option value="AD">Andorra</option>
+                <option value="AO">Angola</option>
+                <option value="AI">Anguilla</option>
+                <option value="AQ">Antarctica</option>
+                <option value="AG">Antigua and Barbuda</option>
+                <option value="AR">Argentina</option>
+                <option value="AM">Armenia</option>
+                <option value="AW">Aruba</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="BS">Bahamas</option>
+                <option value="BH">Bahrain</option>
+                <option value="BD">Bangladesh</option>
+                <option value="BB">Barbados</option>
+                <option value="BY">Belarus</option>
+                <option value="BE">Belgium</option>
+                <option value="BZ">Belize</option>
+                <option value="BJ">Benin</option>
+                <option value="BM">Bermuda</option>
+                <option value="BT">Bhutan</option>
+                <option value="BO">Bolivia, Plurinational State of</option>
+                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                <option value="BA">Bosnia and Herzegovina</option>
+                <option value="BW">Botswana</option>
+                <option value="BV">Bouvet Island</option>
+                <option value="BR">Brazil</option>
+                <option value="IO">British Indian Ocean Territory</option>
+                <option value="BN">Brunei Darussalam</option>
+                <option value="BG">Bulgaria</option>
+                <option value="BF">Burkina Faso</option>
+                <option value="BI">Burundi</option>
+                <option value="KH">Cambodia</option>
+                <option value="CM">Cameroon</option>
+                <option value="CA">Canada</option>
+                <option value="CV">Cape Verde</option>
+                <option value="KY">Cayman Islands</option>
+                <option value="CF">Central African Republic</option>
+                <option value="TD">Chad</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CX">Christmas Island</option>
+                <option value="CC">Cocos (Keeling) Islands</option>
+                <option value="CO">Colombia</option>
+                <option value="KM">Comoros</option>
+                <option value="CG">Congo</option>
+                <option value="CD">Congo, the Democratic Republic of the</option>
+                <option value="CK">Cook Islands</option>
+                <option value="CR">Costa Rica</option>
+                <option value="CI">Côte d'Ivoire</option>
+                <option value="HR">Croatia</option>
+                <option value="CU">Cuba</option>
+                <option value="CW">Curaçao</option>
+                <option value="CY">Cyprus</option>
+                <option value="CZ">Czech Republic</option>
+                <option value="DK">Denmark</option>
+                <option value="DJ">Djibouti</option>
+                <option value="DM">Dominica</option>
+                <option value="DO">Dominican Republic</option>
+                <option value="EC">Ecuador</option>
+                <option value="EG">Egypt</option>
+                <option value="SV">El Salvador</option>
+                <option value="GQ">Equatorial Guinea</option>
+                <option value="ER">Eritrea</option>
+                <option value="EE">Estonia</option>
+                <option value="ET">Ethiopia</option>
+                <option value="FK">Falkland Islands (Malvinas)</option>
+                <option value="FO">Faroe Islands</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="GF">French Guiana</option>
+                <option value="PF">French Polynesia</option>
+                <option value="TF">French Southern Territories</option>
+                <option value="GA">Gabon</option>
+                <option value="GM">Gambia</option>
+                <option value="GE">Georgia</option>
+                <option value="DE">Germany</option>
+                <option value="GH">Ghana</option>
+                <option value="GI">Gibraltar</option>
+                <option value="GR">Greece</option>
+                <option value="GL">Greenland</option>
+                <option value="GD">Grenada</option>
+                <option value="GP">Guadeloupe</option>
+                <option value="GU">Guam</option>
+                <option value="GT">Guatemala</option>
+                <option value="GG">Guernsey</option>
+                <option value="GN">Guinea</option>
+                <option value="GW">Guinea-Bissau</option>
+                <option value="GY">Guyana</option>
+                <option value="HT">Haiti</option>
+                <option value="HM">Heard Island and McDonald Islands</option>
+                <option value="VA">Holy See (Vatican City State)</option>
+                <option value="HN">Honduras</option>
+                <option value="HK">Hong Kong</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IR">Iran, Islamic Republic of</option>
+                <option value="IQ">Iraq</option>
+                <option value="IE">Ireland</option>
+                <option value="IM">Isle of Man</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italy</option>
+                <option value="JM">Jamaica</option>
+                <option value="JP">Japan</option>
+                <option value="JE">Jersey</option>
+                <option value="JO">Jordan</option>
+                <option value="KZ">Kazakhstan</option>
+                <option value="KE">Kenya</option>
+                <option value="KI">Kiribati</option>
+                <option value="KP">Korea, Democratic People's Republic of</option>
+                <option value="KR">Korea, Republic of</option>
+                <option value="KW">Kuwait</option>
+                <option value="KG">Kyrgyzstan</option>
+                <option value="LA">Lao People's Democratic Republic</option>
+                <option value="LV">Latvia</option>
+                <option value="LB">Lebanon</option>
+                <option value="LS">Lesotho</option>
+                <option value="LR">Liberia</option>
+                <option value="LY">Libya</option>
+                <option value="LI">Liechtenstein</option>
+                <option value="LT">Lithuania</option>
+                <option value="LU">Luxembourg</option>
+                <option value="MO">Macao</option>
+                <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                <option value="MG">Madagascar</option>
+                <option value="MW">Malawi</option>
+                <option value="MY">Malaysia</option>
+                <option value="MV">Maldives</option>
+                <option value="ML">Mali</option>
+                <option value="MT">Malta</option>
+                <option value="MH">Marshall Islands</option>
+                <option value="MQ">Martinique</option>
+                <option value="MR">Mauritania</option>
+                <option value="MU">Mauritius</option>
+                <option value="YT">Mayotte</option>
+                <option value="MX">Mexico</option>
+                <option value="FM">Micronesia, Federated States of</option>
+                <option value="MD">Moldova, Republic of</option>
+                <option value="MC">Monaco</option>
+                <option value="MN">Mongolia</option>
+                <option value="ME">Montenegro</option>
+                <option value="MS">Montserrat</option>
+                <option value="MA">Morocco</option>
+                <option value="MZ">Mozambique</option>
+                <option value="MM">Myanmar</option>
+                <option value="NA">Namibia</option>
+                <option value="NR">Nauru</option>
+                <option value="NP">Nepal</option>
+                <option value="NL">Netherlands</option>
+                <option value="NC">New Caledonia</option>
+                <option value="NZ">New Zealand</option>
+                <option value="NI">Nicaragua</option>
+                <option value="NE">Niger</option>
+                <option value="NG">Nigeria</option>
+                <option value="NU">Niue</option>
+                <option value="NF">Norfolk Island</option>
+                <option value="MP">Northern Mariana Islands</option>
+                <option value="NO">Norway</option>
+                <option value="OM">Oman</option>
+                <option value="PK">Pakistan</option>
+                <option value="PW">Palau</option>
+                <option value="PS">Palestinian Territory, Occupied</option>
+                <option value="PA">Panama</option>
+                <option value="PG">Papua New Guinea</option>
+                <option value="PY">Paraguay</option>
+                <option value="PE">Peru</option>
+                <option value="PH">Philippines</option>
+                <option value="PN">Pitcairn</option>
+                <option value="PL">Poland</option>
+                <option value="PT">Portugal</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="QA">Qatar</option>
+                <option value="RE">Réunion</option>
+                <option value="RO">Romania</option>
+                <option value="RU">Russian Federation</option>
+                <option value="RW">Rwanda</option>
+                <option value="BL">Saint Barthélemy</option>
+                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                <option value="KN">Saint Kitts and Nevis</option>
+                <option value="LC">Saint Lucia</option>
+                <option value="MF">Saint Martin (French part)</option>
+                <option value="PM">Saint Pierre and Miquelon</option>
+                <option value="VC">Saint Vincent and the Grenadines</option>
+                <option value="WS">Samoa</option>
+                <option value="SM">San Marino</option>
+                <option value="ST">Sao Tome and Principe</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="SN">Senegal</option>
+                <option value="RS">Serbia</option>
+                <option value="SC">Seychelles</option>
+                <option value="SL">Sierra Leone</option>
+                <option value="SG">Singapore</option>
+                <option value="SX">Sint Maarten (Dutch part)</option>
+                <option value="SK">Slovakia</option>
+                <option value="SI">Slovenia</option>
+                <option value="SB">Solomon Islands</option>
+                <option value="SO">Somalia</option>
+                <option value="ZA">South Africa</option>
+                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                <option value="SS">South Sudan</option>
+                <option value="ES">Spain</option>
+                <option value="LK">Sri Lanka</option>
+                <option value="SD">Sudan</option>
+                <option value="SR">Suriname</option>
+                <option value="SJ">Svalbard and Jan Mayen</option>
+                <option value="SZ">Swaziland</option>
+                <option value="SE">Sweden</option>
+                <option value="CH">Switzerland</option>
+                <option value="SY">Syrian Arab Republic</option>
+                <option value="TW">Taiwan, Province of China</option>
+                <option value="TJ">Tajikistan</option>
+                <option value="TZ">Tanzania, United Republic of</option>
+                <option value="TH">Thailand</option>
+                <option value="TL">Timor-Leste</option>
+                <option value="TG">Togo</option>
+                <option value="TK">Tokelau</option>
+                <option value="TO">Tonga</option>
+                <option value="TT">Trinidad and Tobago</option>
+                <option value="TN">Tunisia</option>
+                <option value="TR">Turkey</option>
+                <option value="TM">Turkmenistan</option>
+                <option value="TC">Turks and Caicos Islands</option>
+                <option value="TV">Tuvalu</option>
+                <option value="UG">Uganda</option>
+                <option value="UA">Ukraine</option>
+                <option value="AE">United Arab Emirates</option>
+                <option value="GB">United Kingdom</option>
+                <option value="US">United States</option>
+                <option value="UM">United States Minor Outlying Islands</option>
+                <option value="UY">Uruguay</option>
+                <option value="UZ">Uzbekistan</option>
+                <option value="VU">Vanuatu</option>
+                <option value="VE">Venezuela, Bolivarian Republic of</option>
+                <option value="VN">Viet Nam</option>
+                <option value="VG">Virgin Islands, British</option>
+                <option value="VI">Virgin Islands, U.S.</option>
+                <option value="WF">Wallis and Futuna</option>
+                <option value="EH">Western Sahara</option>
+                <option value="YE">Yemen</option>
+                <option value="ZM">Zambia</option>
+                <option value="ZW">Zimbabwe</option>
+              </select>
+            </div>
+          </div>
+          <p>&nbsp;</p>
+          <div class='personalinfo'>
+            CONTACT INFORMATION
+          </div>
+          <div>
+            Who would be the best person to receive future communications?
+          </div>
+          <div class="row">
+            <div class="checkmybox ml-3" >
+              <input type="checkbox" value="" id="defaultCheck1">
+              <label for="defaultCheck1">&nbsp;</label>
+            </div>
+            <div style="float:left; margin: 20px 10px;">Same as my information</div>
+          </div>
+          <div class="row clearfix">
+            <div class="col-md-6 my-2">
+              <input type="text" class="form-control" name="ContactName" id="ContactName" placeholder="Contact person's name" required>
+            </div>
+            <div class="col-md-6 my-2">
+              <input type="email" class="form-control" name="ContactEmail" id="ContactEmail" placeholder="Email" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 my-3 text-center">
+              <div class="d-block d-sm-none" style="margin-top:1em"></div>
+              <button type="submit" id="submit-form" class="btn yellow">JOIN GIGA</button>
+            </div>
+          </div>    
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="position-relative p-3 mt-3">
+  <div class="col-md-10 p-3 mx-auto" id="form-container-2">
+    <div class="row">
+      <div class="col-sm-5">
+        <div class="updates">
+            If you want to receive updates about GIGA, please provide us with your email address.
+        </div>
+        <div id="form2-container">
+          <form id="email">
+            <input type="hidden" id="sheet_name" name="sheet_name" value="Contacts">
+            <input type="email" class="form-control mt-4" name="Email" id="Email" placeholder="Email" required="true">
+            <button type="submit" id="submit-email" class="btn yellow my-3">SEND ME UPDATES</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row clearfix mt-3">
+      <div class="col">
+        <div>If you have any questions about partnerships or the initiative in general, email us at <a href="mailto:info@giga.partners" style="color:rgb(115, 72, 179);">info@giga.partners</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="\js\jquery-3.4.1.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+
+  <script src="\js\jquery.serialize-object.min.js"></script>
+  <script src='\js\google-sheet.js'></script>
+
+</body>
+</html>
